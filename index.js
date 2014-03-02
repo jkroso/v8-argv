@@ -11,11 +11,9 @@ if (!process.execArgv.length) {
     var flag = arg.split('=')[0];
 
     switch (flag) {
-      case '-d': arg = '--debug';
       case 'debug':
       case '--debug':
       case '--debug-brk':
-      case '-gc': arg = '--expose-gc';
       case '--expose-gc':
       case '--gc-global':
       case '--harmony':
