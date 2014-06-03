@@ -1,4 +1,10 @@
 
+1.1.0 / 2014-06-03
+==================
+
+ * fix: handle "debug" properly
+ * fix: handle `process.execArgv` properly
+
 1.0.1 / 2014-03-02
 ==================
 
@@ -10,7 +16,7 @@
 
  * api: remove need for a proxy executable
 
-0.2.0 / 2013-12-20 
+0.2.0 / 2013-12-20
 ==================
 
  * Merge branch 'feature/defaults'
@@ -18,7 +24,7 @@
  * tests
  * index: allow default flags
 
-0.1.0 / 2013-12-02 
+0.1.0 / 2013-12-02
 ==================
 
  * initial commit
