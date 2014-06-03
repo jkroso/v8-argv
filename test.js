@@ -4,11 +4,9 @@ var nixt = require('nixt');
 var errors = [];
 
 var TESTS = [
-  '-d',
   //'debug',  // hangs
   '--debug',
   //'--debug-brk', // hangs
-  '-gc',
   '--expose-gc',
   '--gc-global',
   '--harmony',
