@@ -41,7 +41,7 @@ if (debug || args[0] != process.argv[1]) {
   if (debug) args.unshift('debug');
 
   // recreate the process with corrected argument ordering
-  var proc = spawn(process.argv[0], args, { customFds: [ 0, 1, 2 ] });
+  var proc = spawn(process.argv[0], args, { stdio: [ 0, 1, 2 ] });
 
   proc.on('exit', function(code, signal) {
     // ensure the main process exits with the same code
